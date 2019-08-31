@@ -1,0 +1,44 @@
+.mode-display-wrapper {
+  position: fixed !important;
+  top: 5px !important;
+  z-index: 10 !important;
+  right: 5px !important;
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  ) !important;
+  padding: 2px !important;
+}
+.mode-display {
+  background: #1c2123;
+
+  padding-left: 0.5em;
+  /*border: 1px solid #808284;*/
+  font-family: "Roboto", sans-serif !important;
+  font-size: 11px !important;
+}
+.mode-display .mode {
+  display: inline-block;
+}
+.mode-display .label {
+  padding: 0.5em !important;
+  /* background: #47d9fe;*/
+  background: #808284;
+  text-transform: uppercase !important;
+  font-size: 10px !important;
+}
+.mode-display .value {
+  padding: 0.5em !important;
+  color: white !important;
+}

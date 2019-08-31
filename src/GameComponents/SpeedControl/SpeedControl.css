@@ -1,0 +1,48 @@
+.speed-display {
+  background: #1c2123;
+
+  padding-left: 0.5em;
+  /*border: 1px solid #808284;*/
+  font-family: "Roboto", sans-serif !important;
+  font-size: 11px !important;
+}
+
+.speed-display .mode {
+  display: inline-block;
+}
+.speed-display .label {
+  padding: 0.5em !important;
+  background: #47d9fe;
+
+  text-transform: uppercase !important;
+  font-size: 10px !important;
+}
+
+.speed-display .button {
+  margin-right: 0.5em !important;
+  background: #808284 !important;
+  border-radius: 0.5em;
+  text-transform: uppercase !important;
+  font-size: 10px !important;
+  cursor: pointer;
+}
+.speed-display .button:hover {
+  background: #9e9e9e !important;
+}
+.speed-display .value {
+  padding: 0.5em !important;
+  color: white !important;
+}
+
+.speed-display .close-icon {
+  color: white !important;
+  position: relative;
+  top: 3px;
+  right: 2px;
+  font-size: 15px;
+}
+
+.speed-display .close-icon:hover {
+  color: white !important;
+  cursor: pointer;
+}

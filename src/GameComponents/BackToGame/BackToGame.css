@@ -1,0 +1,17 @@
+.back-to-game {
+  padding: 0.2em;
+  color: white;
+  width: 40px;
+  border-radius: 1em;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+.back-to-game:hover {
+  cursor: pointer;
+}
+.back-to-game .inner-wrapper {
+  background-color: black;
+  padding: 0.3em;
+  border-radius: 1em;
+}

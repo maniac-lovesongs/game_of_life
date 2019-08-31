@@ -1,0 +1,55 @@
+.gradient-wrapper {
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  ) !important;
+  padding: 0.3em !important;
+}
+.gradient-wrapper .inner-wrapper {
+  background-color: black !important;
+  color: white;
+}
+.gradient-wrapper .close-button {
+  float: right;
+  padding-top: 0.9em;
+  padding-right: 1em;
+}
+.dialog-title {
+  text-align: left;
+  text-decoration: #41e3fe solid underline;
+  font-family: "Roboto", sans-serif !important;
+}
+.dialog-message {
+  color: white !important;
+  padding-left: 2.5em !important;
+  padding-right: 2.5em !important;
+  padding-bottom: 1.5em !important;
+  font-family: Roboto !important;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+.dialog-message b {
+  color: #d16ba5;
+}
+.start-button {
+  background-color: #1c2022;
+  padding: 1.5em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  margin-right: 2em;
+  border-radius: 10px;
+  border: 3px solid #41e3fe;
+  text-align: center;
+  font-family: "Roboto", sans-serif !important;
+}
